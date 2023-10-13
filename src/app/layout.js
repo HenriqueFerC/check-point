@@ -11,7 +11,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <header class="Cabecalho">
+        <h1>Rotas Dinâmicas - Next.js</h1>
+      </header>
+      {children}
+      <footer class="rodape">
+        <p>Todos os direitos reservados. ©️</p>
+      </footer>
     </html>
   )
 }
