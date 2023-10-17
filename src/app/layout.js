@@ -9,13 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <header class="Cabecalho">
-        <h1>Rotas Dinâmicas - Next.js</h1>
-      </header>
+        <h1 class="cabecalho">Rotas Dinâmicas - Next.js</h1>
+
       {children}
-      <footer class="rodape">
-        <p>Todos os direitos reservados. ©️</p>
-      </footer>
+        <p class="rodape">Todos os direitos reservados. ©️</p>
     </html>
   )
 }

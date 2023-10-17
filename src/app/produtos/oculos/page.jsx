@@ -4,12 +4,12 @@ import Image from 'next/image'
 export default function Oculos(){
     return(
         <>
-            <div class="paginas">
-                <h1>Óculos</h1>
+            <div class="card">
+                <h1 class="nome">Óculos</h1>
                 <figure>
-                    <Image src="/img/óculos.jpeg" width={500} height={500}></Image>
+                    <Image src="/img/óculos.jpeg" width={200} height={250}></Image>
                 </figure>
-                <p><Link href="/">Voltar</Link></p>
+                <p class="nome"><Link href="/">Voltar</Link></p>
             </div>
         </>
     )
